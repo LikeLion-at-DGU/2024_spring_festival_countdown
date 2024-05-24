@@ -1,0 +1,18 @@
+.flip-clock {
+  padding: 40px 0px;
+  --fcc-flip-duration: 0.5s; /* transition duration when flip card */
+  --fcc-digit-block-width: 32px; /* digit card's width */
+  --fcc-digit-block-height: 48px; /* digit card's height */
+  --fcc-digit-font-size: 40px; /* font size of digit */
+  --fcc-digit-color: #474747; /* color of digit */
+  --fcc-background: #f1f1f1; /* digit card's background */
+  --fcc-label-color: #929292; /* time label's color */
+  --fcc-separator-color: #474747;
+  --fcc-divider-color: #ffffff20; /* divider's color */
+  --fcc-label-font-size: 10px;
+  --fcc-digit-block-spacing: 6px;
+}
+
+.flip-clock .fcc__label {
+  padding: 4px;
+}
