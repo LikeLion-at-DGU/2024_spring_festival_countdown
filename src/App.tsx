@@ -1,5 +1,5 @@
 import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
-import "@leenguyen/react-flip-clock-countdown/dist/index.css";
+import "./styles/clock.css";
 import "./countdown.css";
 
 function App() {
@@ -22,7 +22,10 @@ function App() {
             </div>
           </div>
 
-          <FlipClockCountdown className="flip-clock" to={"2024-5-27"} />
+          <FlipClockCountdown
+            className="flip-clock"
+            to={new Date("2024-05-27T00:00:00")}
+          />
         </div>
       </div>
     </div>
