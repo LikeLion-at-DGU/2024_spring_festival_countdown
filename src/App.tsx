@@ -24,7 +24,7 @@ function App() {
 
           <FlipClockCountdown
             className="flip-clock"
-            to={new Date("2024-05-27T00:00:00")}
+            to={new Date("2024-05-27T09:00:00")}
           />
         </div>
       </div>
